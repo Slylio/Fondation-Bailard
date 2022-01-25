@@ -1,0 +1,28 @@
+.button {
+    padding: 19 30px;
+    border-radius: $btn-radius;
+    background-color: $btn-background;
+    color: white;
+    transition: opacity 300ms;
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    &:hover {
+        opacity: .6;
+    }
+}
+
+nav {
+    .button {
+        padding: 12px 27px;
+        margin-left: 3em;
+    }
+}
+
+.content-wrapper {
+    a {
+        @extend %flex-center;
+        width: 100%;
+    }
+}
+

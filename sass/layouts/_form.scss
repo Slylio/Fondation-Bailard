@@ -1,0 +1,46 @@
+form {
+
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    height: 60px;
+    width: 40%;
+    .button {
+        box-shadow:0;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}
+
+
+input {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 100%;
+    font-size: 16px;
+    font-family: Poppins;
+    color: lighten($color: #000000, $amount: 50%);
+    border: none;
+    
+    
+}
+
+.error {
+    display: none;
+    margin-top: 5%;
+    height: fit-content;
+    width: fit-content;
+    font-size: 13px;
+    
+    color:#f23d3d ;
+
+    p {
+        padding: 5px;
+        width: 100%;
+        margin:0;
+        background-color: #fed9db;
+    }
+}

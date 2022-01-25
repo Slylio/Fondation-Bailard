@@ -1,0 +1,10 @@
+footer {
+    height: 265px;
+    background-color: $footer-background;
+    @extend %flex-center;
+    color: white;
+    a{
+        color: $btn-background;
+        text-decoration: underline;
+    }
+}

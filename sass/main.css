@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.content-wrapper a, footer, .img__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+.title {
+  font-size: 32px;
+}
+
+a {
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  color: black;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-top: 4em;
+  letter-spacing: 0em;
+  line-height: 1.4em;
+  margin-top: 3%;
+  width: 70%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h4 {
+  font-size: calc(1.2 * 1rem);
+  color: white;
+  margin: 0;
+}
+
+nav a, h1 {
+  color: white;
+}
+
+.button {
+  padding: 19 30px;
+  border-radius: 0.4rem;
+  background-color: #a8a6a1;
+  color: white;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.button:hover {
+  opacity: .6;
+}
+
+nav .button {
+  padding: 12px 27px;
+  margin-left: 3em;
+}
+
+.content-wrapper a {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page-section {
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-section:nth-child(1) {
+  display: block;
+  background-image: url("/images/Port Saint Goustan.jpg");
+  background-position: 0px 60%;
+  background-size: 100%;
+  height: 850px;
+}
+
+.page-section:nth-child(2) {
+  height: 600px;
+}
+
+.page-section:nth-child(3), .page-section:nth-child(4) {
+  height: 700px;
+}
+
+.page-section:nth-child(3) .content-wrapper, .page-section:nth-child(4) .content-wrapper {
+  width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.page-section:nth-child(5) {
+  height: 600px;
+  background-color: #e8e8e8;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-wrapper p {
+  margin-top: 1.5em;
+  width: 80%;
+  text-align: center;
+  font-weight: 300;
+}
+
+footer {
+  height: 265px;
+  background-color: #363636;
+  color: white;
+}
+
+footer a {
+  color: #a8a6a1;
+  text-decoration: underline;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+  height: 60px;
+  width: 40%;
+}
+
+form .button {
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+input {
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  font-size: 16px;
+  font-family: Poppins;
+  color: gray;
+  border: none;
+}
+
+.error {
+  display: none;
+  margin-top: 5%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 13px;
+  color: #f23d3d;
+}
+
+.error p {
+  padding: 5px;
+  width: 100%;
+  margin: 0;
+  background-color: #fed9db;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2vw 3vw 2vw 3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4vw;
+}
+
+.nav__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img {
+  width: 620px;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+.img__desc {
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img__desc:first-of-type {
+  padding-right: 5em;
+}
+
+.img__desc:last-of-type {
+  padding-left: 5em;
+}
+/*# sourceMappingURL=main.css.map */
