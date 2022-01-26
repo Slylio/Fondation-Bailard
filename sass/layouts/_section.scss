@@ -13,8 +13,10 @@
     &:nth-child(1) {
         display: block;
         background-image: url("/images/Port\ Saint\ Goustan.jpg");
+
         background-position: 0px 60%;
         background-size: 100%;
+        background-repeat: repeat-x;
         height: 850px;
     }
     &:nth-child(2){
@@ -35,6 +37,18 @@
     }
     
 }
+
+@media screen and (max-width: 1400px) {
+    .page-section{
+        &:nth-child(1) {
+            background-size: 1400px;
+            background-position: 50% 60%;
+        }
+    }
+}
+
+
+
 
 .content-wrapper {
     margin: 0 auto;

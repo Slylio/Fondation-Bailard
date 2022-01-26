@@ -3,10 +3,28 @@ nav {
     justify-content: space-between;
     padding: 2vw 3vw 2vw 3vw;
     align-items: center;
-    margin-bottom: 4vw;
+    margin-bottom: 200px;
 }
 
 .nav__end {
     display: flex;
     width: 20%;
+}
+
+@media screen and (max-width: 2000px){
+    .nav__end {
+        width: 35%;
+    } 
+}
+
+@media screen and (max-width: 1200px){
+    .nav__end {
+        width: 50%;
+    } 
+}
+
+@media screen and (max-width: 900px){
+    .nav__end {
+        display: none;
+    } 
 }
