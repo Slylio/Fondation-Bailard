@@ -34,12 +34,9 @@ h2 {
 }
 
 h3 {
-    padding: 0 3em 0 3em;
     margin:0;
     text-align: center;
     font-size: 35px;
-    display: flex;
-    justify-content: center;
 }
 
 h4 {
@@ -49,9 +46,4 @@ h4 {
 }
 nav a,h1 {
     color: white;
-}
-
-
-@media screen and (max-width: 640px) {
-    
 }
