@@ -47,6 +47,7 @@ h2 {
 }
 
 h3 {
+  padding: 0 3em 0 3em;
   margin: 0;
   text-align: center;
   font-size: 35px;
@@ -172,7 +173,7 @@ body {
 
 .content-wrapper {
   margin: 0 auto;
-  width: 1000px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,10 +315,8 @@ li {
           justify-content: center;
 }
 
-.img {
-  width: 620px;
-  height: 500px;
-  background-color: blueviolet;
+img {
+  width: 100%;
 }
 
 .img__desc {
@@ -330,13 +329,5 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.img__desc:first-of-type {
-  padding-right: 5em;
-}
-
-.img__desc:last-of-type {
-  padding-left: 5em;
 }
 /*# sourceMappingURL=main.css.map */
